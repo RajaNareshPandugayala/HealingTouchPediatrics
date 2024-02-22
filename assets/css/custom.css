@@ -2235,6 +2235,7 @@ h2.heading-style2 {
     background-color: #5663c1;
 }
 
+
 /********************************************************************************/
 
 .hidden-xs-top {
@@ -2327,6 +2328,23 @@ h2.heading-style2 {
     /* border: 1px solid red; */
 }
 
+
+
+.col-md-3A {
+    width: 210px;
+
+}
+
+.col-md-3B {
+    width: 450px;
+}
+
+.col-md-3C {
+    width: 215px;
+}
+
+
+
 @media (max-width: 992px) {
     .form-group_parent {
         flex-direction: column;
@@ -2338,6 +2356,10 @@ h2.heading-style2 {
 
     .maps iframe {
         width: 100%;
+    }
+
+    .col-md-3 {
+        width: 90%;
     }
 }
 
@@ -3361,7 +3383,7 @@ ul.timeline>li:before {
 .text-icon-list li {
     position: relative;
 
-    padding-left: 40px;
+    padding-left: 22px;
     margin: 14px 0;
 
     line-height: 1.5;
