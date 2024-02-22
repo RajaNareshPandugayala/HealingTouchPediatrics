@@ -8210,11 +8210,11 @@ button.close {
     }
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
     .hidden-xs {
         display: none !important
     }
-}
+} */
 
 @media (min-width:768px) and (max-width:991px) {
     .hidden-sm {
@@ -10452,7 +10452,6 @@ pre code {
 .col-xs-8,
 .col-xs-9 {
     position: relative;
-
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
@@ -16953,11 +16952,11 @@ button.close {
     }
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
     .hidden-xs {
         display: none !important;
     }
-}
+} */
 
 @media (min-width:768px) and (max-width:991px) {
     .hidden-sm {
