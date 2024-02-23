@@ -441,7 +441,7 @@ body {
 
 .relative {
     position: relative;
-    height: 475px;
+    /* height: 475px; */
     width: 100%;
 }
 
