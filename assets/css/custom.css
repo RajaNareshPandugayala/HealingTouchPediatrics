@@ -3806,41 +3806,41 @@ ul.arrow-style li:before {
         background-image: url(../img/home5N.PNG);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -200px;
+        /* background-position: -200px; */
     }
 
     #main-slider .slide2 {
         background-image: url(../img/wellmain.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -200px;
+        /* background-position: -200px; */
     }
 
     #main-slider .slide3 {
         background-image: url(../img/prenatal5N.PNG);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -350px;
+        /* background-position: -350px; */
     }
 
     #main-slider .slide4 {
         background-image: url(../img/7260.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -45px;
+        /* background-position: -45px; */
     }
 
     #main-slider .slide5 {
         background-image: url(../img/sick.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -120px;
+        /* background-position: -120px; */
     }
 
     #main-slider .slide6 {
         background-image: url(../img/immunizationimg.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat; */
     }
 }
 
@@ -3855,42 +3855,42 @@ ul.arrow-style li:before {
         background-image: url(../img/home5N.PNG);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -270px;
+        /* background-position: -270px; */
     }
 
     #main-slider .slide2 {
         background-image: url(../img/wellmain.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -350px;
+        /* background-position: -350px; */
     }
 
     #main-slider .slide3 {
         background-image: url(../img/prenatal5N.PNG);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -550px;
+        /* background-position: -550px; */
     }
 
     #main-slider .slide4 {
         background-image: url(../img/7260.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -135px;
+        /* background-position: -135px; */
     }
 
     #main-slider .slide5 {
         background-image: url(../img/sick.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -409px;
+        /* background-position: -409px; */
     }
 
     #main-slider .slide6 {
         background-image: url(../img/immunizationimg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -200px;
+        /* background-position: -200px; */
     }
 }
 
@@ -4001,18 +4001,18 @@ a.custom-btn:hover .round i {
 }
 
 .container-fluid-top1A {
-    padding: 5px 0px 10px 30px;
+    padding: 5px 0px 10px 10px;
     /* border: 3px solid green; */
 }
 
 .container-fluid-top1B {
     padding: 5px 0px 10px 30px;
-    /* border: 3px solid green;*/
+    /* border: 3px solid green; */
 }
 
-/* .container-fluid-top2 {
+.container-fluid-top2 {
     border: 3px solid blue;
-} */
+}
 
 .full-thumb {
     width: 100%;
@@ -4143,11 +4143,15 @@ a.custom-btn:hover .round i {
     flex-direction: row;
     position: absolute;
     /* border: 2px solid red; */
-    top: 110px;
-    left: 110px;
+    top: 130px;
+    left: 60px;
     right: 0;
     margin: auto;
     width: 190px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    /* flex-wrap: wrap; */
 }
 
 .social-links-top00 {
@@ -4189,11 +4193,17 @@ a.custom-btn:hover .round i {
         background-size: cover;
         background-repeat: no-repeat;
         /* border: 3px solid blue; */
+        background-position: right;
     }
 
     .container-fluid-top1B {
         padding: 0px;
         /* border: 3px solid green;*/
+    }
+
+    .blocks-iconsleft-top p {
+        font-size: 13px;
+        /* border: 1px solid red; */
     }
 
 }
