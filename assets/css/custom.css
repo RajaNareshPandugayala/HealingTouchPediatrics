@@ -4151,7 +4151,7 @@ a.custom-btn:hover .round i {
     margin: 0;
     padding: 0;
     gap: 0;
-    z-index: 1000;
+    z-index: 2000;
     /* flex-wrap: wrap; */
 }
 
@@ -4205,6 +4205,10 @@ a.custom-btn:hover .round i {
     .blocks-iconsleft-top p {
         font-size: 13px;
         /* border: 1px solid red; */
+    }
+
+    .social-links-top {
+        z-index: 2000;
     }
 
 }
