@@ -4151,6 +4151,7 @@ a.custom-btn:hover .round i {
     margin: 0;
     padding: 0;
     gap: 0;
+    z-index: 1000;
     /* flex-wrap: wrap; */
 }
 
