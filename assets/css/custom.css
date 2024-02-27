@@ -3997,10 +3997,6 @@ a.custom-btn:hover .round i {
     border: 3px solid red;
 } */
 
-.navbar-toggle {
-    /* border: 3px solid green; */
-    padding: 0;
-}
 
 .container-fluid-top1 {
     background-color: darkblue;
@@ -4149,8 +4145,8 @@ a.custom-btn:hover .round i {
     justify-content: center;
     flex-direction: row;
     position: absolute;
-    top: 130px;
-    right: 0;
+    top: 100px;
+    left: 210px;
     margin: auto;
     width: 190px;
     margin: 0;
@@ -4218,5 +4214,33 @@ a.custom-btn:hover .round i {
 
 }
 
+
+@media (max-width: 500px) {
+    .social-links-top {
+        z-index: 2000;
+        top: 130px;
+        left: 200px;
+    }
+
+    .navbar-toggle {
+        /* border: 3px solid green; */
+        padding: 0px 40px 0px 0px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .social-links-top {
+        z-index: 2000;
+        top: 130px;
+        left: 170px;
+    }
+
+    .navbar-toggle {
+        /* border: 3px solid green; */
+        padding: 0px;
+    }
+
+}
 
 /********************************************************************************/
