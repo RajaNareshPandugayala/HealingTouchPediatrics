@@ -3997,6 +3997,11 @@ a.custom-btn:hover .round i {
     border: 3px solid red;
 } */
 
+.navbar-toggle {
+    /* border: 3px solid green; */
+    padding: 0;
+}
+
 .container-fluid-top1 {
     background-color: darkblue;
     /* border: 3px solid green; */
@@ -4144,7 +4149,7 @@ a.custom-btn:hover .round i {
     justify-content: center;
     flex-direction: row;
     position: absolute;
-    top: 125px;
+    top: 130px;
     right: 0;
     margin: auto;
     width: 190px;
