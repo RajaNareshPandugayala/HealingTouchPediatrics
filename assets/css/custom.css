@@ -4008,7 +4008,7 @@ a.custom-btn:hover .round i {
 }
 
 .container-fluid-top1B {
-    padding: 5px 0px 10px 30px;
+    padding: 5px 0px 10px 10px;
     /* border: 3px solid green; */
 }
 
@@ -4047,7 +4047,7 @@ a.custom-btn:hover .round i {
 }
 
 .blocks-iconsleft-top p {
-    font-size: 16px;
+    font-size: 15px;
     /* border: 1px solid red; */
 }
 
@@ -4156,8 +4156,10 @@ a.custom-btn:hover .round i {
 }
 
 .social-links-top00 {
-    top: 152px;
-    left: 135px;
+    /* top: 152px;
+    left: 135px; */
+    top: 140px;
+    left: 530px;
     /* border: 2px solid red; */
 }
 
@@ -4199,7 +4201,7 @@ a.custom-btn:hover .round i {
 
     .container-fluid-top1B {
         padding: 0px;
-        /* border: 3px solid green;*/
+        /* border: 3px solid green; */
     }
 
     .blocks-iconsleft-top p {
