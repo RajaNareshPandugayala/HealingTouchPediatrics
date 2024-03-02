@@ -47,6 +47,7 @@ body {
     color: #fff;
     background-color: #5663c1;
     background-color: darkblue;
+    margin-top: -120px;
 }
 
 
@@ -1865,6 +1866,34 @@ h2.heading-style2 {
 
     border-radius: 50%;
     background-image: url("../img/client8.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.small-thumb9,
+.small-thumb10,
+.small-thumb11,
+.small-thumb12,
+.small-thumb13,
+.small-thumb14,
+.small-thumb15,
+.small-thumb16,
+.small-thumb17,
+.small-thumb18,
+.small-thumb19,
+.small-thumb20,
+.small-thumb21,
+.small-thumb22,
+.small-thumb23,
+.small-thumb24,
+.small-thumb25 {
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: 20px auto;
+
+    border-radius: 50%;
+    background-image: url("../img/profile-default.512x511.png");
     background-position: center;
     background-size: contain;
 }
