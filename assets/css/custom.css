@@ -3329,6 +3329,7 @@ ul.timeline>li:before {
     color: #ccc;
     box-shadow: none;
     text-shadow: 0 0 0;
+    /* border: 2px solid red; */
 }
 
 .slick-arrow:hover {
@@ -4192,6 +4193,16 @@ a.custom-btn:hover .round i {
 }
 
 
+.slick-arrow.prev {
+    left: 100px;
+    top: 320px;
+}
+
+.slick-arrow {
+    top: 340px;
+}
+
+
 
 @media (max-width: 992px) {
     .form-group_parent {
@@ -4239,6 +4250,20 @@ a.custom-btn:hover .round i {
 
     .social-links-top {
         z-index: 2000;
+    }
+
+    .client-slider {
+        padding: 20px 30px;
+    }
+
+    .slick-arrow.prev {
+        left: 10px;
+        top: 320px;
+    }
+
+    .slick-arrow {
+        right: 10px;
+        top: 340px;
     }
 
 }
