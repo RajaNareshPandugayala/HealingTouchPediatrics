@@ -4257,12 +4257,12 @@ a.custom-btn:hover .round i {
     }
 
     .slick-arrow.prev {
-        left: 10px;
+        left: -2px;
         top: 320px;
     }
 
     .slick-arrow {
-        right: 10px;
+        right: -2px;
         top: 340px;
     }
 
