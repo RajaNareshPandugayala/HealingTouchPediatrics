@@ -616,8 +616,29 @@
             <div class="row">
                 <div class="col-md-5">
                     <br>
-                    <img src="assets/img/Sirikonda.png" alt="" style="height:400px;">
+                    <img src="assets/img/Sirikonda00.jpg" alt="" style="height:400px; width: 400px;"
+                        class="container_image">
                 </div>
+                <script>
+                    // Assuming you have an array of image names like ['Sirikonda00.jpg', 'Sirikonda01.jpg', ...]
+                    var imageNames = [];
+                    for (var i = 0; i < 19; i++) {
+                        var imageName = 'Sirikonda' + ('0' + i).slice(-2) + '.jpg'; // Pads the number with leading zeros
+                        imageNames.push(imageName);
+                    }
+
+                    var currentIndex = 0;
+                    var imgElement = document.querySelector('.container_image');
+
+                    function changeImage() {
+                        imgElement.src = 'assets/img/' + imageNames[currentIndex];
+                        currentIndex = (currentIndex + 1) % imageNames.length;
+                    }
+
+                    // Call the changeImage function periodically, for example, every 3 seconds
+                    setInterval(changeImage, 3000);
+                </script>
+
                 <div class="col-md-7">
                     <div class="wow fadeInRight" data-wow-delay="0s" data-wow-duration="2s">
                         <div>
@@ -1044,7 +1065,7 @@
                                 href="https://www.google.com/maps?ll=33.161922,-96.847497&z=16&t=m&hl=en&gl=IN&mapclient=embed&q=4645+Wyndham+Ln+%23230+Frisco,+TX+75033+USA"
                                 target="_blank">4645 Wyndham
                                 Lane
-                                Ste 230 Frisco, TX 75033</a><br><a href="tel:+1-817-417-9001">+1 (469) 473-4120</a></li>
+                                Ste 230 Frisco, TX 75033</a><br><a href="tel:+1-469-473-4120">+1 (469) 473-4120</a></li>
                         <li><i class="fa fa-map-marker" style="font-size:20px"></i><a class="maps_a-tag"
                                 href="https://www.google.com/maps/place/6853+Coit+Rd+STE+300,+Plano,+TX+75024,+USA/@33.069427,-96.772362,16z/data=!4m6!3m5!1s0x864c22c98a66912d:0xb17c87d97829c690!8m2!3d33.0694028!4d-96.7723473!16s%2Fg%2F11hbw2210t?hl=en&entry=ttu"
                                 target="_blank">6853 Coit
